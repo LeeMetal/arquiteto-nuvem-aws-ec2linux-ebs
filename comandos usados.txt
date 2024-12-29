@@ -1,0 +1,7 @@
+(lsblk) para verificar os volumes conectados na instancia
+(sudo mkfs -t ext4 /dev/xvdb) para formatar o volume para (ext4)
+(sudo mkdir /mnt/awslinux) criando pasta (awslinux)
+(sudo mount /dev/xvdb /mnt/awslinux) montando volume na pasta (awslinux)
+(sudo touch /mnt/awslinux/test.txt) criando arquivo (test.txt)
+(sudo nano /mnt/awslinux/test.txt) para alterar arquivo
+(cat /mnt/awslinux/test.txt) para apresentar conteúdo do arquivo
